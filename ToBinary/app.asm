@@ -1,7 +1,7 @@
 ; Configuración para PIC16F84A
 
     list    p=16F84A        ; Especifica el microcontrolador
-    #include <p16f84a.inc> ; Incluye el archivo de definición para el PIC16F84A
+    #include <app.asm> ; Incluye el archivo de definición para el PIC16F84A
 
     org     0x0000         ; Dirección de inicio del programa
 
